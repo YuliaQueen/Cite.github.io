@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <title>3D Touch Swipe Slider</title>
+</head>
+
+<body>
+    <h1>Quotes about success</h1>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="slider-text">
+                        <h3>Cite One</h3>
+                    </div>
+                    <div class="content">
+                        <p>
+                            Самое важное в жизни: сила воли, умение делать выбор (желательно быстро), быть воспитанным и
+                            культурным (почти во всех ситуациях). <br> <br>
+
+                            Самое страшное: сожаление.
+                        </p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="slider-text">
+                        <h3>Cite Two</h3>
+                    </div>
+                    <div class="content">
+                        <p>
+                            Люди, которые думают о будущем, о том, как улучшить свою жизнь, и совершают действия в этом направлении, имеют план действий. Они рисуют свою жизненную карту и двигаются по ней.
+                        </p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="slider-text">
+                        <h3>Cite Three</h3>
+                    </div>
+                    <div class="content">
+                        <p>
+                            Единственное, что стоит между тобой и твоей целью, это дерьмовая мысль о том, почему ты не сможешь этой цели достичь, которую ты постоянно прокручиваешь в своей голове.
+                        </p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="slider-text">
+                        <h3>Cite Four</h3>
+                    </div>
+                    <div class="content">
+                        <p>
+                            Если вы будете действовать так же как все, то какой результат вы получите? Именно поэтому большинство людей не может добиться успеха. Потому что они не делают тех вещей, которые делают чемпионы.
+                        </p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="slider-text">
+                        <h3>Cite Five</h3>
+                    </div>
+                    <div class="content">
+                        <p>
+                            Успех – это не более чем несколько простых правил, соблюдаемых ежедневно, а неудача – это просто несколько ошибок, повторяемых ежедневно. Вместе они составляют то, что приводит нас либо к удаче, либо к поражению!
+                        </p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+    <script src="js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 1,
+                depth: 200,
+                modifier: 4,
+                slideShadows: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        });
+    </script>
+
+</body>
+
+</html>
